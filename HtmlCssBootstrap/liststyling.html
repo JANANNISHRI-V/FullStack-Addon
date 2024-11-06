@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list styling</title>
+
+    <link rel="stylesheet" href="liststyling.css">
+
+    <style>
+        table,th,td{
+    border: 5px solid;
+    border-color: rgb(2, 142, 167);
+    margin: 1px;
+    padding: 20px;
+    border-collapse:  separate;
+    border-spacing: 09px;
+    width: fit-content;
+    empty-cells: hide;
+    caption-side: bottom;
+        }
+        table tr:nth-child(even){
+            background-color: rgb(158, 180, 221);
+        }
+        th{
+            background-color: rgb(195, 166, 241);
+        }
+        td{
+            background-color: rgb(149, 194, 236);   
+        }
+        caption{
+            color: rgb(1, 151, 101);
+            font-size: x-large;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li>ant</li>
+        <li>bat</li>
+        <li>cow</li>
+        <li>dog</li>
+    </ul>
+    <br>
+    <table>
+        <caption>Students Details</caption>
+        <tr>
+            <th>Name</th>
+            <th>Roll no</th>
+        </tr>
+        <tr>
+            <td>Abimanue</td>
+            <td>001</td>
+        </tr>
+        <tr>
+            <td>balganesh</td>
+            <td>002</td>
+        </tr>
+        <tr>
+            <td>calix</td>
+            <td>003</td>
+        </tr>
+    </table>
+</body>
+</html>

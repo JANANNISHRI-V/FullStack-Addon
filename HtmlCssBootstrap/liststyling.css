@@ -1,0 +1,6 @@
+ul{
+    list-style-type: georgian;
+    font-size: large;
+    list-style-image: linear-gradient(pink,salmon,rgb(173, 235, 243));
+    list-style-image: url("./dog1.jpg");
+}

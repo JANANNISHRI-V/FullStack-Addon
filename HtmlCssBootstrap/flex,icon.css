@@ -1,0 +1,169 @@
+body{
+    background-image: linear-gradient(to bottom left, rgb(65, 62, 62),black,rgb(82, 77, 77));
+    height: 200vh;
+    width: 150vh;
+    padding: 20px;
+    }
+span{
+    font-family: "Tiny5", sans-serif;
+    font-size: large;
+    font-variant: initial;
+    color: white;
+}
+i{
+    font-size: 30px;
+    color: white;
+}
+li{
+    list-style-type: none;
+    padding: 0px 10px;
+    font-family: "Teko", sans-serif;
+    font-size: x-large;
+    color:white;
+    transition-duration: .5s;
+    
+}
+ul{
+    display: flex;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: dimgrey;
+}
+a{
+    text-decoration-line: none;
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+}
+li:hover{
+    border-bottom: 3px solid white;
+    box-shadow: 5px 10px 20px;
+}
+li:active{
+    background-color: dimgray;
+}
+
+:target{
+    background-color: rgb(125, 125, 150);
+    color: rgb(43, 218, 224);
+}
+pre{
+    width: fit-content;
+}
+img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50px;
+    padding-top: 10px;
+}
+.img{
+    float: right;
+    position:absolute;
+    top: 175px;
+    right: 75px;
+
+}
+main{
+    
+    justify-content: space-between;
+}
+.d1{
+    position: absolute;  
+    left: 30px;
+    bottom: 200px;
+    animation-name: infinity;
+    animation-duration: 19s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+h4{
+    color: white;
+}
+h2{
+    color: white;
+    text-align: left;
+}
+h2,h4{
+    display: inline-block ;
+}
+input{
+    border-radius: 50px;
+    width: fit-content;
+    height: 25px;
+}
+.input{
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    border-radius: 25px;
+
+}
+.btn{
+    background-color: darksalmon;
+    border-color: coral;
+}
+.txt{
+    border: none;
+}
+.c1{
+    background-color: #EEE9DA;
+    width: 200px;
+    height: 100px;
+    border-radius: 100px;
+    display: grid;
+    place-content: center;
+}
+    
+
+.c1 > i{
+    font-size: 50px;
+    
+}
+.c2{
+    background-color: #EEE9DA;
+    width: 200px;
+    height: 100px;
+    border-radius: 100px;
+    display: grid;
+    place-content: center;
+}
+.c2 > i{
+    font-size: 50px;
+   
+}
+.c3{
+    background-color: #EEE9DA;
+    width: 200px;
+    height: 100px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c3 > i{
+    font-size: 50px;
+    
+}
+.c4{
+    background-color: #EEE9DA;
+    width: 200px;
+    height: 100px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c4 i{
+    font-size: 50px;
+    
+    
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+
+}

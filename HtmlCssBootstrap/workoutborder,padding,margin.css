@@ -1,0 +1,33 @@
+marquee{
+    height: 34px;
+    font-size: larger;
+    color: rgb(66, 0, 248);  
+    background-color: rgb(130, 209, 238);
+}
+div{
+    display: inline-flex;
+}
+div > p{
+    background-color: rgb(143, 240, 247);
+    width: 200px;
+    height: 200px;
+}
+div .p1{
+    border: 20px;
+    border-color: rgb(6, 105, 122);
+    border-style:solid;
+}
+div .p2{
+    border: 20px;
+    border-color: rgb(6, 105, 122);
+    border-style:solid;
+    padding: 20px;
+}
+div .p3{
+    border: 20px;
+    border-color: rgb(6, 105, 122);
+    border-style:solid;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+}

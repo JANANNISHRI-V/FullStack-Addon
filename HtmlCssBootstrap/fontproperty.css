@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap');
+div{
+    font-size: 10px;
+}
+h1{
+    font-size: xx-large;
+}
+.p1{
+    font-size: medium;
+    font-family: "Tiny5", sans-serif;
+    font-style: oblique;
+}
+span{
+    font-size: 2em;
+    font-weight: bold;
+}
+.p2{
+    font-weight: bolder;
+    font-family: "Gwendolyn", cursive;
+}
+@keyframes infinity{
+    from{
+        left: 30px;
+        bottom: 0;
+    }
+    to{
+       transform: translate(100vw,0vw);
+    }
+}
+.ball{
+    background-image: radial-gradient(circle at 50%,rgb(255, 253, 253),rgb(101, 235, 206),rgb(96, 201, 187),white );
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border-style: dashed;
+    border-color: whitesmoke;
+    animation-name: ball;
+    animation-duration: 12s;
+}
